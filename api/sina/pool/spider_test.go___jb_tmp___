@@ -1,0 +1,9 @@
+package pool
+
+import (
+	"testing"
+)
+
+func Test_sms(t *testing.T){
+	GetStockLastTick("510050")
+}
